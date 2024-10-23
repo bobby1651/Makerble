@@ -1,0 +1,132 @@
+.PostInputBox {
+  background: wheat;
+  max-width: 100%;
+  border-radius: 10px;
+  height: max-content;
+  /* margin: 20px; */
+}
+
+.Post_headline {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Post_btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+  margin: 2px;
+  width: 6rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#post_btn {
+  background: red;
+}
+
+#cancel_btn {
+  background: blueviolet;
+}
+
+.Post_form {
+  display: flex;
+  width: 100%;
+  padding: 5px;
+}
+
+.avatar_img_area {
+  width: 20%;
+  height: auto;
+  object-fit: contain;
+}
+
+.Post_form > .PostForm {
+  width: 80%;
+  height: 100%;
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-textarea {
+  width: 90%;
+  resize: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.avatar_img {
+  background: beige;
+  border-radius: 10px;
+  height: 6rem;
+  width: 6rem;
+}
+
+label {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+div {
+  padding: 10px;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+select {
+  padding: 5px;
+  width: calc(100% - 70px);
+  /* Use the remaining width */
+  margin-right: 50px;
+}
+
+.Option_Btns_Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.Option_Btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 3rem;
+  width: 15rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.Option_Btn:hover {
+  background-color: #ddd;
+}
+
+.Option_Btn.active {
+  background-color: red;
+  color: white;
+}
+
+.icons {
+  height: 1rem;
+  width: 1rem;
+  padding: 5px;
+}

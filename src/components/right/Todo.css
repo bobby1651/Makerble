@@ -1,0 +1,112 @@
+.todo-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px; */
+  background-color: #f1f1f1;
+}
+
+.header-middle {
+  display: flex;
+  align-items: center;
+}
+
+.header-left {
+  font-weight: bold;
+}
+
+.task-count {
+  margin-right: 10px;
+}
+
+.task-done {
+  background-color: grey;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.header-right .filter-toggle {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.filters-wrapper {
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.filters-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.apply-filters {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.filters-options {
+  margin-top: 10px;
+}
+
+.filters-options div {
+  margin: 5px 0;
+}
+
+.input-section {
+  display: flex;
+  margin: 10px 0;
+}
+
+.input-section input {
+  /* flex-grow: 1;
+  padding: 10px; */
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 150px;
+}
+
+.save-task {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  height: 40px;
+}
+
+.tasks-list {
+  margin-top: 20px;
+}
+
+.task-row {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.task-row input {
+  margin-right: 10px;
+}
+
+.dropdown-arrow {
+  margin-left: 5px;
+}

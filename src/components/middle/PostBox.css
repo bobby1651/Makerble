@@ -1,0 +1,39 @@
+.PostBox {
+  background: wheat;
+  max-width: 100%;
+
+  border-radius: 10px;
+  height: max-content;
+  margin-bottom: 20px;
+}
+
+.Main_Post_body,
+.Main_Post,
+.Stats,
+.left_sec {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+}
+
+.Time_Stamp {
+  display: flex;
+  align-content: flex-end;
+}
+
+.Stats {
+  justify-content: space-between;
+}
+
+h2,
+p {
+  margin-bottom: 4px;
+  margin-top: 4px;
+  text-align: left;
+
+  padding-left: 15px;
+}
+
+.Post_Body {
+  text-align: left;
+}

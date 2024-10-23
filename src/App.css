@@ -1,0 +1,52 @@
+/* Ensure padding and border are included in the width calculation */
+* {
+  box-sizing: border-box;
+}
+
+.body_color {
+  background-color: rgb(221, 221, 198);
+  width: 100vw; /* Ensures the body doesn't exceed the viewport width */
+  /* Prevent horizontal scrolling */
+}
+
+.body_style {
+  display: grid; /* Enables CSS Grid */
+  grid-template-columns: 25% 50% 25%; /* Defines the layout: Left (1fr), Middle (2fr), Right (1fr) */
+  gap: 2px; /* Adds some space between the grid columns */
+  /* Ensures the container spans the full width */
+}
+
+.body_style > div {
+  padding: 10px;
+}
+
+.left {
+  grid-column: 1; /* Assigns the left component to the first column */
+}
+
+.middle {
+  grid-column: 2; /* Assigns the middle component to the second column */
+}
+
+.right {
+  grid-column: 3; /* Assigns the right component to the third column */
+}
+
+p,
+a,
+li {
+  font-size: 75%;
+}
+
+/* Optional: Adjust for responsiveness on smaller screens */
+@media (max-width: 768px) {
+  .body_style {
+    grid-template-columns: 1fr; /* Stack all components vertically on smaller screens */
+  }
+
+  .left,
+  .middle,
+  .right {
+    grid-column: span 1; /* Each component takes the full width on small screens */
+  }
+}
